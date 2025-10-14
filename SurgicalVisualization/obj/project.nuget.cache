@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "qLKJavSs/yQ=",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\jobsearch\\resumes\\Portfolio\\SurgicalVisualization\\SurgicalVisualization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brian\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.2\\communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\helixtoolkit\\2014.2.9.1\\helixtoolkit.2014.2.9.1.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\helixtoolkit.wpf\\2014.2.9.1\\helixtoolkit.wpf.2014.2.9.1.nupkg.sha512",
+    "C:\\Users\\brian\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "HelixToolkit.Wpf 2014.2.9.1 depends on HelixToolkit (>= 2014.2.0) but HelixToolkit 2014.2.0 was not found. HelixToolkit 2014.2.9.1 was resolved instead.",
+      "libraryId": "HelixToolkit",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "SurgicalVisualization depends on HelixToolkit.Wpf (>= 2.28.0) but HelixToolkit.Wpf 2.28.0 was not found. HelixToolkit.Wpf 2014.2.9.1 was resolved instead.",
+      "libraryId": "HelixToolkit.Wpf",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HelixToolkit 2014.2.9.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HelixToolkit",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'HelixToolkit.Wpf 2014.2.9.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net9.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "HelixToolkit.Wpf",
+      "targetGraphs": [
+        "net9.0-windows7.0"
+      ]
+    }
+  ]
+}

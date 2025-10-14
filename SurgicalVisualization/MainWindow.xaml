@@ -1,0 +1,113 @@
+<Window x:Class="SurgicalVisualization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:h="clr-namespace:HelixToolkit.Wpf;assembly=HelixToolkit.Wpf"
+        Title="Surgical Visualization &amp; Control"
+        Height="800" Width="1200"
+        KeyDown="Window_KeyDown"
+        Background="#FFF6F8FB">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="0,2"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="4"/>
+            <Setter Property="Padding" Value="8,6"/>
+        </Style>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="6"/>
+            <Setter Property="Padding" Value="6"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+        <!-- Toolbar -->
+        <ToolBar DockPanel.Dock="Top" Background="#E9EEF6">
+            <Button Content="Load Model" Command="{Binding LoadModelCommand}" />
+            <Button Content="Reset View" Command="{Binding ResetViewCommand}" />
+            <Button Content="Align Device" Command="{Binding AlignDeviceCommand}" />
+            <Separator/>
+            <Button Content="Export Log" Command="{Binding ExportLogCommand}" />
+            <Button Content="Export Screenshot" Command="{Binding ExportScreenshotCommand}" />
+            <Separator/>
+            <TextBlock Text="FPS:" FontWeight="Bold" Margin="20,0,4,0"/>
+            <TextBlock Text="{Binding Fps, StringFormat=F1}" />
+        </ToolBar>
+
+        <!-- Status bar -->
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem Content="{Binding StatusMessage}"/>
+            <Separator/>
+            <StatusBarItem Content="{Binding CursorPositionFormatted}"/>
+            <Separator/>
+            <StatusBarItem Content="{Binding OrientationFormatted}"/>
+        </StatusBar>
+
+        <!-- Main layout -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="360"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Left: 3D Viewport -->
+            <Grid Grid.Column="0">
+                <h:HelixViewport3D x:Name="Viewport"
+                                   Focusable="True"
+                                   ZoomExtentsWhenLoaded="True"
+                                   ShowFrameRate="False"
+                                   IsZoomEnabled="True"
+                                   IsRotationEnabled="True"
+                                   IsPanEnabled="True"
+                                   ShowCoordinateSystem="True"
+                                   Background="#FFFBFDFF">
+
+                    <!-- Explicit camera helps interactions work consistently -->
+                    <h:HelixViewport3D.Camera>
+                        <PerspectiveCamera Position="200,200,200"
+                                           LookDirection="-200,-200,-200"
+                                           UpDirection="0,0,1"
+                                           FieldOfView="45" />
+                    </h:HelixViewport3D.Camera>
+
+                    <h:DefaultLights/>
+
+                    <!-- Your scene content -->
+                    <ModelVisual3D Content="{Binding Scene}" />
+                </h:HelixViewport3D>
+            </Grid>
+
+            <!-- Right: Metrics & Details -->
+            <ScrollViewer Grid.Column="1" VerticalScrollBarVisibility="Auto">
+                <StackPanel Margin="10">
+                    <TextBlock Text="Surgical Metrics" FontSize="18" FontWeight="Bold" Margin="0,0,0,8"/>
+
+                    <GroupBox Header="Active Model">
+                        <StackPanel>
+                            <TextBlock Text="{Binding ActiveModelName}"/>
+                            <TextBlock Text="{Binding TriangleCount, StringFormat=Triangles: {0:N0}}"/>
+                            <TextBlock Text="{Binding BoundingBoxFormatted}"/>
+                            <TextBlock Text="{Binding LoadDurationFormatted}"/>
+                            <TextBlock Text="{Binding CenterOfMassFormatted}"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Live Coordinates (mm)">
+                        <StackPanel>
+                            <TextBlock Text="{Binding PositionFormatted}"/>
+                            <TextBlock Text="{Binding RotationFormatted}"/>
+                        </StackPanel>
+                    </GroupBox>
+
+                    <GroupBox Header="Calibration">
+                        <StackPanel>
+                            <TextBlock Text="{Binding CalibrationSummary}"/>
+                            <TextBlock Text="{Binding AlignmentAngleSummary}"/>
+                        </StackPanel>
+                    </GroupBox>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </DockPanel>
+</Window>

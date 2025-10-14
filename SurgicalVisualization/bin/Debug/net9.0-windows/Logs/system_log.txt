@@ -1,0 +1,84 @@
+2025-10-14T16:56:29.5290818Z	INFO	Viewport attached.
+2025-10-14T16:57:08.0332613Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T16:57:08.2623205Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 30
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 113
+2025-10-14T16:57:16.0973782Z	INFO	ResetView invoked.
+2025-10-14T16:57:22.1659458Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\implant_sample.stl
+2025-10-14T16:57:22.2335554Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 30
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 113
+2025-10-14T17:02:23.5433435Z	INFO	Viewport attached.
+2025-10-14T17:02:32.4209247Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T17:02:32.5885064Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 45
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 113
+2025-10-14T17:03:50.9322661Z	INFO	Viewport attached.
+2025-10-14T17:04:01.0523402Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T17:04:01.2357727Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 45
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 116
+2025-10-14T17:04:30.2013368Z	INFO	Viewport attached.
+2025-10-14T17:04:40.3303634Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T17:04:40.4831842Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 45
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 116
+2025-10-14T17:13:10.8651877Z	INFO	Viewport attached.
+2025-10-14T17:13:20.6158732Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T17:13:20.7962799Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 49
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 115
+2025-10-14T17:15:56.8356101Z	INFO	Viewport attached.
+2025-10-14T17:16:06.3833287Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T17:16:06.5471709Z	ERROR	LoadModel failed: System.InvalidOperationException: The calling thread cannot access this object because a different thread owns it.
+   at System.Windows.Threading.Dispatcher.<VerifyAccess>g__ThrowVerifyAccess|7_0()
+   at System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   at System.Windows.Media.Media3D.Model3DGroup.get_Children()
+   at SurgicalVisualization.Services.ModelLoader.LoadAsync(String path) in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Services\ModelLoader.cs:line 49
+   at SurgicalVisualization.ViewModels.MainViewModel.LoadModelAsync() in D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\ViewModels\MainViewModel.cs:line 115
+2025-10-14T17:21:12.5759870Z	INFO	Viewport attached.
+2025-10-14T17:21:20.9413543Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\bone_sample.stl
+2025-10-14T17:21:20.9818114Z	INFO	LoadModel complete	file=bone_sample.stl	tri=0	bbox=(-∞,-∞,-∞)	loadms=11.1
+2025-10-14T17:21:45.2471713Z	INFO	AlignDevice principal=1,0,0 target=0,0,1 angle=90.000
+2025-10-14T17:21:48.5160317Z	INFO	User requested ExportLog (file at /Logs/system_log.txt)
+2025-10-14T17:21:51.8633389Z	INFO	ResetView invoked.
+2025-10-14T17:21:59.8269532Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\implant_sample.stl
+2025-10-14T17:21:59.8499068Z	INFO	LoadModel complete	file=implant_sample.stl	tri=0	bbox=(-∞,-∞,-∞)	loadms=3.0
+2025-10-14T17:30:31.1085857Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization_fixed\Assets\Dragon 2.5_stl.stl
+2025-10-14T17:30:31.2788180Z	INFO	LoadModel complete	file=Dragon 2.5_stl.stl	tri=37986	bbox=(151.424,98.547,32.254)	loadms=85.1
+2025-10-14T17:30:36.0502021Z	INFO	ResetView invoked.
+2025-10-14T17:30:37.3893588Z	INFO	AlignDevice principal=1,0,0 target=0,0,1 angle=90.000
+2025-10-14T17:30:38.3827944Z	INFO	AlignDevice principal=0,0,1 target=0,0,1 angle=0.000
+2025-10-14T17:43:51.5675809Z	INFO	Viewport attached.
+2025-10-14T19:23:34.0195173Z	INFO	Viewport attached.
+2025-10-14T19:24:02.7298884Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization\Assets\Dragon 2.5_stl.stl
+2025-10-14T19:24:02.8799763Z	INFO	LoadModel complete	file=Dragon 2.5_stl.stl	tri=37986	bbox=(151.424,98.547,32.254)	loadms=80.2
+2025-10-14T19:24:38.2131299Z	INFO	ResetView invoked.
+2025-10-14T19:44:00.9328117Z	INFO	Viewport attached.
+2025-10-14T19:44:08.6936573Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization\Assets\Dragon 2.5_stl.stl
+2025-10-14T19:44:08.8712389Z	INFO	LoadModel complete	file=Dragon 2.5_stl.stl	tri=37986	bbox=(151.424,98.547,32.254)	loadms=96.9
+2025-10-14T19:51:55.9592122Z	INFO	Viewport attached.
+2025-10-14T19:52:32.9623338Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization\Assets\Dragon 2.5_stl.stl
+2025-10-14T19:52:33.0955929Z	INFO	LoadModel complete	file=Dragon 2.5_stl.stl	tri=37986	bbox=(151.424,98.547,32.254)	loadms=60.3
+2025-10-14T19:53:07.0911381Z	INFO	ResetView invoked.
+2025-10-14T19:57:54.2336073Z	INFO	Viewport attached.
+2025-10-14T19:58:00.6562521Z	INFO	LoadModel start	file=D:\GitHub\jobsearch\resumes\Portfolio\SurgicalVisualization\Assets\Dragon 2.5_stl.stl
+2025-10-14T19:58:00.7753127Z	INFO	LoadModel complete	file=Dragon 2.5_stl.stl	tri=37986	bbox=(151.424,98.547,32.254)	loadms=70.4

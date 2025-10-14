@@ -1,0 +1,66 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "8.2.0.0",
+            "fileVersion": "8.2.2.1"
+          }
+        }
+      },
+      "HelixToolkit/2014.2.9.1": {},
+      "HelixToolkit.Wpf/2014.2.9.1": {
+        "dependencies": {
+          "HelixToolkit": "2014.2.9.1"
+        },
+        "runtime": {
+          "lib/NET45/HelixToolkit.Wpf.SharpDX.dll": {
+            "assemblyVersion": "2014.2.9.1",
+            "fileVersion": "2014.2.9.1"
+          },
+          "lib/NET45/HelixToolkit.Wpf.dll": {
+            "assemblyVersion": "2014.2.9.1",
+            "fileVersion": "2014.2.9.1"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {}
+    }
+  },
+  "libraries": {
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "hashPath": "communitytoolkit.mvvm.8.2.2.nupkg.sha512"
+    },
+    "HelixToolkit/2014.2.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-djLY5RAhmK+5i18Q/OrcE6VM0iPOfXSTacysS6YAtcAVWbTGMKPzprlNhkTA7ppAwQyQh8PPzFWH+Ju2jeEP3Q==",
+      "path": "helixtoolkit/2014.2.9.1",
+      "hashPath": "helixtoolkit.2014.2.9.1.nupkg.sha512"
+    },
+    "HelixToolkit.Wpf/2014.2.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5gY3gARUPRkNGXrbzb0rhOqyiXBdwf0H8AjZFbQbxacWMT5uMFZzvf8PvZ+tGdkJRApmACBa7gkpyjNRwJvHzg==",
+      "path": "helixtoolkit.wpf/2014.2.9.1",
+      "hashPath": "helixtoolkit.wpf.2014.2.9.1.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    }
+  }
+}
