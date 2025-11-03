@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Surgical Visualization – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; line-height: 1.6; margin: 2rem auto; max-width: 900px; padding: 0 1rem; background: #f7f7f7; }
+    h1, h2, h3 { margin-top: 1.6rem; }
+    code, pre { background: #eee; padding: 0.2rem 0.4rem; border-radius: 4px; }
+    pre { padding: 1rem; overflow-x: auto; }
+    .badges img { margin-right: 0.5rem; margin-bottom: 0.5rem; }
+    .card { background: #fff; border-radius: 8px; padding: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.04); margin-bottom: 1.5rem; }
+    ul { padding-left: 1.25rem; }
+    a { color: #0366d6; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header class="card">
+    <h1>Surgical Visualization</h1>
+    <div class="badges">
+      <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a>
+      <a href="https://github.com/brianhannigan/portfolio"><img src="https://img.shields.io/badge/repo-brianhannigan/portfolio-blue?logo=github" alt="GitHub repo"></a>
+      <a href="https://github.com/brianhannigan/portfolio/tree/main/SurgicalVisualization"><img src="https://img.shields.io/badge/module-SurgicalVisualization-purple" alt="Module: SurgicalVisualization"></a>
+      <a href="https://github.com/brianhannigan/portfolio/commits/main"><img src="https://img.shields.io/github/last-commit/brianhannigan/portfolio" alt="Last commit"></a>
+      <a href="https://github.com/brianhannigan/portfolio/issues"><img src="https://img.shields.io/github/issues/brianhannigan/portfolio" alt="Issues"></a>
+    </div>
+    <p><em>A 3D interactive surgical environment prototype</em></p>
+  </header>
+
+  <section class="card">
+    <h2>Project Overview</h2>
+    <p>This project is a portfolio-friendly demo for showcasing 3D surgical or anatomical visualization in the browser using a Unity WebGL build. It highlights your ability to integrate interactive 3D, host it in GitHub, and present it as part of a professional engineering portfolio.</p>
+  </section>
+
+  <section class="card">
+    <h2>Features</h2>
+    <ul>
+      <li>Interactive 3D scene (surgical / anatomical)</li>
+      <li>Unity WebGL export target</li>
+      <li>Mouse/touch camera controls (orbit, zoom)</li>
+      <li>Clean layout for portfolio demos</li>
+      <li>Ready for GitHub Pages / static hosting</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Technologies &amp; Tools</h2>
+    <ul>
+      <li>Unity (with WebGL build support)</li>
+      <li>WebGL</li>
+      <li>HTML / CSS / JS or React wrapper</li>
+      <li>GitHub for hosting</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Getting Started</h2>
+    <h3>Prerequisites</h3>
+    <ul>
+      <li>Unity with WebGL module</li>
+      <li>Git</li>
+      <li>Optional: Node.js + npm</li>
+    </ul>
+
+    <h3>Clone</h3>
+    <pre><code>git clone https://github.com/brianhannigan/portfolio.git
+cd portfolio/SurgicalVisualization
+</code></pre>
+
+    <h3>Build</h3>
+    <p>Open in Unity → Switch build target to <strong>WebGL</strong> → Build to <code>Build/WebGL/</code></p>
+
+    <h3>Run locally</h3>
+    <pre><code>python -m http.server 8000</code></pre>
+    <p>Then open <a href="http://localhost:8000">http://localhost:8000</a></p>
+  </section>
+
+  <section class="card">
+    <h2>Folder Structure</h2>
+    <pre><code>SurgicalVisualization/
+├── Assets/ or UnityProject/
+├── Build/
+│   └── WebGL/
+├── WebWrapper/
+├── README.md
+└── LICENSE
+</code></pre>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <p><strong>Brian Hannigan</strong><br>
+    Email: <a href="mailto:jobshannigan@gmail.com">jobshannigan@gmail.com</a><br>
+    LinkedIn: <a href="https://www.linkedin.com/in/brianjhannigan">https://www.linkedin.com/in/brianjhannigan</a><br>
+    Website: <a href="https://brianhannigan.com">https://brianhannigan.com</a></p>
+  </section>
+</body>
+</html>
